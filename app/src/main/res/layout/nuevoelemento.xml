@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nombre"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombrenuevo"
+            android:imeOptions="flagNoExtractUi"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Subnombre"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:id="@+id/subnombrenuevo"
+            android:imeOptions="flagNoExtractUi"/>
+
+    </TableRow>
+
+    <TableRow
+    android:layout_width="match_parent"
+        android:gravity="center"
+    android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttomphoto"
+
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Buscar Imagen"/>
+
+    </TableRow>
+
+ <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="120dp"
+                android:id="@+id/imagennueva"
+                android:imeOptions="flagNoExtractUi"/>
+
+ </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Insertar"
+            android:id="@+id/btnnuevoItem"
+            android:layout_weight="1"
+            android:elevation="0dp" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:text="Cancelar"
+                android:id="@+id/btncancelar"/>
+    </TableRow>
+</TableLayout>
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Listado</string>
+    <string name="add_10">Añadir 10</string>
+    <string name="delete">Eliminar filas</string>
+</resources>
