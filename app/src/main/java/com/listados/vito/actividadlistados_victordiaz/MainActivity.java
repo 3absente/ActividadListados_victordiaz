@@ -314,7 +314,7 @@ public class MainActivity extends AppCompatActivity {
     private String MesAnho(int i) {
         String[] nombremeses = {"enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"};
 
-        if (i > 0 && i < 12) return nombremeses[i];
+        if (i >= 0 && i < 12) return nombremeses[i];
         else return "mes incorrecto";
     }
 
